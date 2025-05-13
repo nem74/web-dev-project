@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECHOES OF NEHEMIAH</title>
+  <link rel="icon" href="nem photo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+  <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <a href="/" class="logo">BlogName</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#" class="nav-link active">Home</a></li>
+          <li><a href="#" class="nav-link">Categories</a></li>
+          <li><a href="#" class="nav-link">About</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome to My Blog</h1>
+        <p>Thoughts, stories and ideas.</p>
+      </div>
+    </section>
+
+    <section class="featured-posts">
+      <div class="container">
+        <h2 class="section-title">Featured Posts</h2>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-image">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Coding on a laptop">
+            </div>
+            <div class="feature-content">
+              <span class="tag">Technology</span>
+              <h3><a href="#">The Future of Web Development</a></h3>
+              <p>Exploring upcoming trends and technologies that will shape the future of web development in 2025.</p>
+              <div class="meta">
+                <span class="date">May 10, 2025</span>
+                <span class="read-time">5 min read</span>
+              </div>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-image">
+              <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" alt="Person using laptop">
+            </div>
+            <div class="feature-content">
+              <span class="tag">Productivity</span>
+              <h3><a href="#">Mastering Your Workflow</a></h3>
+              <p>Tips and strategies for maintaining productivity and creativity while working on complex projects.</p>
+              <div class="meta">
+                <span class="date">May 8, 2025</span>
+                <span class="read-time">7 min read</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-content">
+      <div class="container content-grid">
+        <div class="posts-container">
+          <h2 class="section-title">Latest Posts</h2>
+          
+          <article class="post-card">
+            <div class="post-image">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" alt="Laptop on desk">
+            </div>
+            <div class="post-content">
+              <span class="tag">Design</span>
+              <h3><a href="#">Creating User-Friendly Interfaces</a></h3>
+              <p>Learn the principles behind designing intuitive user interfaces that provide excellent user experiences.</p>
+              <div class="meta">
+                <span class="date">May 5, 2025</span>
+                <span class="read-time">4 min read</span>
+              </div>
+            </div>
+          </article>
+          
+          <article class="post-card">
+            <div class="post-image">
+              <img src="https://images.unsplash.com/photo-1517022812141-23620dba5c23" alt="Nature landscape">
+            </div>
+            <div class="post-content">
+              <span class="tag">Lifestyle</span>
+              <h3><a href="#">Finding Balance in a Digital World</a></h3>
+              <p>Strategies for maintaining a healthy relationship with technology in our increasingly connected lives.</p>
+              <div class="meta">
+                <span class="date">May 2, 2025</span>
+                <span class="read-time">6 min read</span>
+              </div>
+            </div>
+          </article>
+          
+          <article class="post-card">
+            <div class="post-image">
+              <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625" alt="Modern architecture">
+            </div>
+            <div class="post-content">
+              <span class="tag">Architecture</span>
+              <h3><a href="#">Minimalist Design Principles</a></h3>
+              <p>How minimalist approaches to design can create beautiful and functional spaces in modern architecture.</p>
+              <div class="meta">
+                <span class="date">Apr 28, 2025</span>
+                <span class="read-time">5 min read</span>
+              </div>
+            </div>
+          </article>
+          
+          <div class="load-more">
+            <button id="load-more-btn" class="btn">Load More</button>
+          </div>
+        </div>
+        
+        <aside class="sidebar">
+          <div class="sidebar-widget about-widget">
+            <h3>About Me</h3>
+            <div class="about-content">
+              <img src="nem photo.jpg" alt="Author photo" class="author-img">
+              <p>Hi! I'm the author of this blog where I share my thoughts on technology, design, lifestyle, and more.</p>
+            </div>
+          </div>
+          
+          <div class="sidebar-widget">
+            <h3>Categories</h3>
+            <ul class="category-list">
+              <li><a href="#">Technology <span>(12)</span></a></li>
+              <li><a href="#">Design <span>(8)</span></a></li>
+              <li><a href="#">Productivity <span>(6)</span></a></li>
+              <li><a href="#">Lifestyle <span>(4)</span></a></li>
+            
+            </ul>
+          </div>
+          
+          <div class="sidebar-widget">
+            <h3>Popular Posts</h3>
+            <ul class="popular-list">
+              <li>
+                <a href="#">
+                  <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=72&h=72&q=80" alt="Popular post thumbnail">
+                  <div>
+                    <h4>The Future of Web Development</h4>
+                    <span>May 10, 2025</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=72&h=72&q=80" alt="Popular post thumbnail">
+                  <div>
+                    <h4>Mastering Your Workflow</h4>
+                    <span>May 8, 2025</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=72&h=72&q=80" alt="Popular post thumbnail">
+                  <div>
+                    <h4>Creating User-Friendly Interfaces</h4>
+                    <span>May 5, 2025</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="sidebar-widget">
+            <h3>Subscribe</h3>
+            <p>Get the latest posts delivered straight to your inbox.</p>
+            <form class="subscribe-form">
+              <input type="email" placeholder="Your email address" required>
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3 class="logo">BlogName</h3>
+          <p>A personal blog sharing ideas and insights about technology, design, and lifestyle.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Social</h4>
+          <div class="social-links">
+            <a href="#" aria-label="x">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+            </a>
+            <a href="https://github.com/nem74" target="_blank" aria-label="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7a3.37 3.37 0 0 0-.94 2.61V22"></path>
+                </svg>
+              </a>
+              
+              <a href="https://www.instagram.com/n.e_m_nk" target="_blank" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a10 10 0 0 0-10 10v6a10 10 0 0 0 10 10h6a10 10 0 0 0 10-10v-6a10 10 0 0 0-10-10h-6zm-1 14h2v2h-2zm-3-5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm9-5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path>
+                </svg>
+              </a>
+              
+              <a href="https://www.linkedin.com/in/nehemiah-kiptoo-220518352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+              
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Nehemiah kiptoo. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
