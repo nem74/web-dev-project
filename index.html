@@ -182,16 +182,19 @@
             </ul>
           </div>
           
-          <div class="sidebar-widget">
-            <h3>Subscribe</h3>
-            <p>Get the latest posts delivered straight to your inbox.</p>
-            <form action="https://formsubmit.io/send/nehemiahkiptoo7@gmail.com" method="POST">
-              <input type="email" placeholder="Your email address" required>
-              <input name="_formsubmit_id" type="text" style="display:none">
-              <input type="hidden"name="_redirect" value="https://echoesofnehemiah.netlify.app/thank-you.html">
-              <button type="submit" class="btn btn-primary">Subscribe</button>
-            </form>
-          </div>
+         <div class="sidebar-widget">
+             <h3>Subscribe</h3>
+              <p>Get the latest posts delivered straight to your inbox</p>
+               <form action="https://formsubmit.io/send/nehemiankiptoo7@gmail.com" method="POST">
+               <input type="email" name="email" placeholder="Your email address" required>
+    
+          <!-- Honeypot field (optional for spam protection) -->
+               <input name="formsubmit_id" type="text" style="display:none">
+                <!-- Redirect after submission -->
+              <input type="hidden" name="_redirect" value="https://echoesofnehemiah.netlify.app/thank-you.html">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+         </div>
         </aside>
       </div>
     </section>
